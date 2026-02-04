@@ -1,4 +1,5 @@
 import "./globals.css";
+import ParticlesBackground from "./components/ParticlesBackground";
 
 export const metadata = {
   title: "Portfolio",

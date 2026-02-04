@@ -2,21 +2,13 @@
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
+import SkillsTabsContent from "./SkillsTabsContent";
 
 const TAB_DATA = [
   {
     title: "Skills",
     id: "skills",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
-      </ul>
-    ),
+    content: (< SkillsTabsContent />)
   },
   {
     title: "Education",
