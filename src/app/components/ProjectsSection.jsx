@@ -16,7 +16,7 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Photography Portfolio Website",
+    title: "Potography Portfolio Website",
     description: "Project 2 description",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
@@ -76,7 +76,7 @@ const ProjectsSection = () => {
 
   const cardVariants = {
     initial: { y: 50, opacity: 0 },
-    animate: { y: 0, opacity: 1},
+    animate: { y: 0, opacity: 1 },
   };
 
   return (
